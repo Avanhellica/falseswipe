@@ -1,0 +1,589 @@
+/* TEMPLATE */
+div#temp {
+    outline: 1px solid #222;
+    outline-offset: 3px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    position: relative;
+    width: 556px;
+    font-size: 10px;
+}
+#temp h1 {
+    font: 30px 'rajdhani';
+    font-weight: 200;
+    color: #ccc;
+    margin: 0;
+    text-transform: uppercase;
+}
+#temp h2 {
+    font-size: 40px;
+    font-family: worthwhileregular;
+    font-weight: 300!important;
+    text-align: center;
+    text-transform: lowercase;
+    position: relative;
+    z-index: 2;
+    margin: 30px 0 10px 0;
+}
+#temp h3 {
+    background: #160c0d;
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 0;
+}
+#temp h4 {
+    background: #111;
+    padding: 0px 8px;
+    display: block;
+    font-size: 10px;
+    font-family: Rajdhani;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#temp li z {
+    display: inline-block;
+    text-transform: uppercase;
+    background: #080808;
+    font-size: 7px;
+    font-weight: 700;
+    padding: 1px 7px;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    margin-right: 4px;
+}
+#temp li {
+    background: #0a0a0a;
+    margin: 4px;
+    position: relative;
+    padding: 2px 4px;
+    border: 1px solid #111;
+    text-align: right;
+}
+#temp ul {
+    padding: 0;
+    list-style: none;
+}
+
+#temp.app h1 {
+    position: relative;
+    top: -5px;
+}
+#temp.app left {
+    background: #111;
+    width: 200px;
+    display: inline-block;
+    float: left;
+    height: 300px;
+}
+#temp.app left .gif div {
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+}
+#temp.app left .gif {width: 200px; height: 200px; }
+#temp.app left .gif div {width: 200px; height: 200px; background-size: cover; }
+.player {
+    width: 192px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #080808;
+    padding: 4px;
+}
+#temp.app .player u {
+    display: block;
+    font: 10px 'rajdhani';
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration-color: #442528;
+    padding-left: 4px;
+    color: #333;
+}
+#temp.app .player b {
+    display: block;
+    font-size: 8px;
+    margin: 0;
+    padding: 0;
+    line-height: 11px;
+    padding-left: 12px;
+}
+#temp.app .player .age, #temp.app .player .tmz {float: right; }
+#temp.app main {
+    width: 355px;
+    float: right;
+    height: 300px;
+    border-left: 1px solid #222;
+    overflow: hidden;
+}
+#temp.app section {
+    display: none;
+    padding: 10px;
+    overflow: auto;
+    height: 280px;
+    background: #080808;
+}
+#temp.app input {display: none;}
+#temp.app label {
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 5px 15px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 9px;
+    color: #666;
+    background: #111;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 18px;
+}
+#temp.app label[for="tab1"] {right: 109px; }
+#temp.app label[for="tab2"] {right: 20px; }
+#temp.app section {
+    display: none;
+    padding: 10px;
+    overflow: auto;
+    height: 280px;
+}
+#temp.app label:hover {
+  color: #888;
+  cursor: pointer;
+}
+#temp.app input:checked + label {
+    color: #7d3c42;
+    border: 1px solid #222;
+    border-bottom: 1px solid #7d3c42;
+}
+#temp.app #tab1:checked ~ #content1,
+#temp.app #tab2:checked ~ #content2,
+#temp.app #tab3:checked ~ #content3{
+  display: block;
+}
+div#shipper h4 {margin-bottom: 8px; }
+.ship-icon {
+    float: left;
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    background: #0a0a0a;
+    margin-right: 10px;
+}
+.ship {
+    float: right;
+    width: 458px;
+    height: 60px;
+    font-size: 9px;
+    overflow: auto;
+    padding: 4px 8px;
+    border: 1px solid #111;
+}
+
+
+#temp.c1 {width: 300px; }
+#temp.c1 small {
+    background: #111;
+    padding: 0px 8px;
+    width: 300px;
+    display: block;
+    font-family: Rajdhani;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#temp.c1 small span {
+    display: inline-block;
+    min-width: 30px;
+    text-align: center;
+    padding: 0 4px;
+}
+div#temp.c1 .gif {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-color: #222;
+    border-radius: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+div#temp.c1 .texts z {
+    margin: 4px;
+    border-radius: 16px;
+    font-size: 10px;
+    padding: 4px 9px;
+    display: block;
+    float: left;
+    clear: left;
+    background: #111;
+}
+div#temp.c1 .texts {
+    border: 1px solid #222;
+    padding: 10px;
+    background: #080808;
+    margin: 4px 0;
+    height: 160px;
+    overflow: auto;
+}
+div#temp.c1 footer {width: 280px; margin: 0 auto; }
+div#temp.c1 footer b {text-transform: uppercase; }
+div#temp.c1 .input {
+    margin: 4px;
+    border-radius: 16px;
+    font-size: 10px;
+    padding: 4px 9px;
+    display: inline-block;
+    background: #080808;
+    width: 200px;
+    color: #333;
+}
+
+#temp.c2 {width: 500px; height: 225px; }
+#temp.c2 h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #111;
+    width: 540px;
+    text-align: center;
+    border-bottom: 1px solid #222;
+}
+#temp.c2 small {
+    background: #0a0a0a;
+    padding: 0px 8px;
+    width: 424px;
+    display: block;
+    font-family: Rajdhani;
+    text-transform: uppercase;
+    font-weight: 700;
+    position: absolute;
+    left: 0;
+    top: 39px;
+    text-align: center;
+}
+#temp.c2 small span {
+    display: inline-block;
+    min-width: 30px;
+    text-align: center;
+    padding: 0 4px;
+}
+#temp.c2 small span:nth-child(1) {float: left; }
+#temp.c2 small span:nth-child(3), #temp.c2 small span:nth-child(4) {float: right; }
+div#temp.c2 .gif {
+    width: 100px;
+    height: 226px;
+    background-size: cover;
+    background-color: #222;
+    position: absolute;
+    right: 0;
+    top: 39px;
+}
+div#temp.c2 .texts z {
+    margin: 4px;
+    border-radius: 16px;
+    font-size: 10px;
+    padding: 4px 9px;
+    display: block;
+    float: left;
+    clear: left;
+    background: #111;
+}
+div#temp.c2 .texts {
+    border: 1px solid #222;
+    padding: 10px;
+    background: #080808;
+    margin: 4px 0;
+    height: 142px;
+    width: 411px;
+    overflow: auto;
+    position: relative;
+    top: 38px;
+    margin-bottom: 20px;
+    left: -16px;
+}
+div#temp.c2 footer {width: 400px; margin: 0; position: absolute; bottom: 0; }
+div#temp.c2 footer b {text-transform: uppercase; }
+div#temp.c2 .input {
+    margin: 4px;
+    border-radius: 16px;
+    font-size: 10px;
+    padding: 4px 9px;
+    display: inline-block;
+    background: #080808;
+    width: 316px;
+    color: #333;
+}
+
+div#temp.gen.memdir {width: 412px; }
+div#temp.gen.memdir inner {display: block; }
+div#temp.gen.memdir inner ileft {
+    display: block;
+    float: right;
+    border: 1px solid #222;
+    background-color: #111;
+    padding: 15px;
+}
+div#temp.gen.memdir inner ileft div,
+div#temp.gen.memdir inner ileft div img {
+    display: block;
+    min-height: 120px;
+    max-height: 120px;
+    min-width: 120px;
+    max-width: 120px;
+}
+div#temp.gen.memdir inner iright {
+    position: relative;
+    display: block;
+    float: left;
+    width: 247px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    padding: 5px;
+    height: 140px;
+    background-color: #111;
+    border: 1px solid #222;
+    overflow: hidden;
+}
+div#temp.gen.memdir inner iright boxdesc {
+    display: block;
+    position: relative;
+    background-color: #0e0e0e;
+    height: 107px;
+}
+div#temp.gen.memdir inner iright boxdesc div {
+    display: block;
+    position: relative;
+    height: 97px;
+    padding: 5px 10px 5px 5px;
+    margin: 5px 0px 5px 5px;
+    line-height: 140%;
+    color: #9a9a9a;
+    font-size: 9px;
+    overflow: auto;
+}
+div#temp.gen.memdir inner iright deets {
+    display: block;
+    position: relative;
+    background-color: #361b1a;
+    font-size: 7px;
+    color: #ccc;
+    font-weight: bold;
+    padding: 5px 10px 5px 0px;
+    text-align: right;
+    text-shadow: -1px -1px 0 #111, 1px -1px 0 #111, -1px 1px 0 #111, 1px 1px 0 #111;
+    letter-spacing: 1px;
+}
+div#temp.gen.memdir inner iright deets span {
+    margin: 0px 5px;
+}
+div#temp.gen.memdir inner boxchar {
+    display: block;
+    position: relative;
+    padding: 3px;
+    border: 1px solid #222;
+}
+div#temp.gen.memdir inner boxchar a {
+    display: block;
+    background-color: #111;
+    margin-bottom: 1px;
+    padding: 3px;
+    border: 1px solid #222;
+    position: relative;
+    min-height: 20px;
+}
+div#temp.gen.memdir inner boxchar a row {
+    position: relative;
+    display: block;
+    font-family: calibri;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: .5px;
+    text-align: right;
+}
+div#temp.gen.memdir inner boxchar a row name {
+    position: absolute;
+    left: -3px;
+    background-color: #361b1a;
+    padding: 3px 10px 4px 10px;
+    top: -3px;
+    color: #797979;
+    text-shadow: -1px -1px 0 #111, 1px -1px 0 #111, -1px 1px 0 #111, 1px 1px 0 #111;
+}
+
+div#temp.gen.memdir inner boxchar a row deets {
+    display: block;
+    padding: 0px 5px 0px 0px;
+    color: #949494;
+}
+div#temp.gen.memdir inner boxchar a row deets span {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    margin: 0px 2px;
+}
+
+div#temp.p1 {
+    width: 400px;
+    font-size: 10px;
+}
+div#temp.p1 header {
+    background: #2d1518;
+    display: block;
+    height: 50px;
+    position: relative;
+    margin-bottom: 20px;
+}
+div#temp.p1 header .gif {
+    width: 100px;
+    height: 100px;
+    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    position: absolute;
+    left: 150px;
+    top: -20px;
+    background-size: cover;
+}
+div#temp.p1 p {
+    padding: 6px 8px;
+    background: #0c0c0c;
+}
+#temp.p1 footer span i {
+    color: #4e2328;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+}
+#temp.p1 footer span {
+    width: 100px;
+    display: inline-block;
+    position: relative;
+    color: #714a4f;
+    font-size: 7px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#temp.p1 footer {
+    background: #2d1518;
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 0;
+}
+#temp.p2 h1 {
+    font-size: 60px;
+    font-family:worthwhileregular;
+    font-weight: 300!important;
+    text-align: center;
+    text-transform: lowercase;
+    float: left;
+    margin-right: 10px;
+    margin-top: -10px;
+    position: relative;
+    z-index: 2;
+}
+#temp.p2 small {
+    font-family: Rajdhani;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #111;
+    display: block;
+    padding: 6px 10px 6px 10px;
+}
+#temp.p2 .text {
+    clear: both;
+    background: #0a0a0a;
+    padding: 20px;
+    font-size: 10px;
+    position: relative;
+    top: -26px;
+    float: left;
+    width: 366px;
+    height: 260px;
+    overflow: auto;
+}
+#temp.p2 .img {
+    float: right;
+    width: 150px;
+    height: 300px;
+    font-size: 10px;
+    position: relative;
+    top: -26px;
+    background-size: cover;
+}
+#temp.p2 .footer {
+    display: block;
+    position: relative;
+    top: -5px;
+    text-align: left;
+    height: 20px;
+    clear: both;
+}
+#temp.p2 .footer span {
+    width: 50px;
+    display: inline-block;
+    position: relative;
+    color: #666;
+    font-size: 7px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: top;
+}
+#temp.p2 .footer span:nth-child(3) {
+    position: absolute;
+    right: 10px;
+    text-align: left;
+    width: 100px;
+}
+#temp.p2 .footer span i {
+    color: #4e2328;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    top: -10px;
+    background: #111;
+    padding: 10px 10px;
+    border-radius: 100%;
+}
+#temp.p3 {width: 360px; }
+#temp.p3 .img {
+    width: 400px;
+    height: 150px;
+    margin-left: -20px;
+    margin-top: -20px;
+    background-size: cover;
+}
+#temp.p3 h1 {text-align: center; margin-top: -18px; }
+#temp.p3 small span i {
+    position: absolute;
+    left: 0;
+    font-size: 19px;
+    color: #402022;
+}
+#temp.p3 small span {
+    display: inline-block;
+    background: #2d1416;
+    margin: 4px;
+    width: 100px;
+    padding: 0 4px;
+    text-align: right;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 7px;
+    font-weight: 700;
+}
+#temp.p3 small {
+    background: rgba(47, 22, 24, 0.4);
+    display: block;
+    text-align: center;
+    padding: 2px 0;
+}
+#temp.p3 .text {
+    font-size: 10px;
+    background: #0a0a0a;
+    padding: 10px 14px;
+}		
